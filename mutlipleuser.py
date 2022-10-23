@@ -30,7 +30,7 @@ class complete:
             return "BUST"
 
     @staticmethod
-    def winner_bet_balance(user_count_list: Sequence) -> [Union[str, int]]:
+    def winner_bet_balance(user_count_list: Sequence) -> [Union[str, int]]:  # type: ignore
         win_rank: int = 0
         if len(user_count_list) == 2 and (user_count_list[0].card_value == user_count_list[1].card_value):
             print(("=" * 5), "PUSH", ("=" * 5))
