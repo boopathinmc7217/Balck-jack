@@ -2,7 +2,7 @@ import Cards
 
 from typing import ClassVar, List
 
-Card: ClassVar = Cards.Card
+Card  = Cards.Card
 
 
 class UserDisplay:
